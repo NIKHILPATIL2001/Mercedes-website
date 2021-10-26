@@ -1,0 +1,188 @@
+body{
+    background-color:black;
+}
+ul
+{
+    list-style: none;
+    float: right;
+}
+ul li {
+    display:inline;
+    margin: -3%;
+     padding: 107px;
+
+    
+}
+ul li a {
+text-decoration:none;
+border: transparent;
+padding: 5px;
+transition: 0.5s ease;
+color:black; 
+background-color: gray;
+border-radius: 5px;
+}
+ul li :hover{
+    border-radius:20px ;
+    padding: 18px;
+    background-color:honeydew;
+}
+ .logo img {
+       height: 107px;
+       width: 114px;
+   }
+   #name h1{
+       position:relative;
+       font-family:cursive;
+       color:#111;
+       font-size: 54px;
+       top: -40px;
+       right: -217px;
+       padding: 0%;
+       margin: -4%;
+justify-content: center;
+background:black;
+   }
+  #name h1 span {
+     display:table-cell;
+     padding: 0%;
+     margin: 0%;
+     animation: animate 2s linear infinite;
+   }
+   @keyframes animate
+   {
+       0%,100%{
+color: #fff;
+filter: blur(2px);
+       }
+       5%,80%{
+        color:gray;
+        filter: blur(0px);
+               }
+               10%,40%{
+                color: #fff;
+                filter: blur(0px);
+                       }
+            
+   }
+   .underlogo p{ 
+        color:ivory;
+        position: relative;
+        right: -11%;
+     
+   }
+   .car img{
+       height: auto;
+       width: auto;
+       border-style: ridge;
+   }
+ .title h1{
+    color: blanchedalmond;
+  font-family:cursive;
+  font-size: 39px;
+  position: absolute;
+    top:61%;
+    right: 22%;
+    text-transform: capitalize;
+    width: 211px;
+    padding: 30px;
+}
+ b{
+    color:grey;
+    font-size: 25px;
+}
+.des p{
+color: blanchedalmond;
+  font-family:cursive;
+  font-size: 15px;
+  position: absolute;
+  height:auto;
+  width: 37%;
+}
+.des{
+    position: relative;
+    right: -3%;
+}
+.des img{
+    position: relative;
+    height: auto;
+    width: 54%;
+right: -42%;
+top: 0%;
+border: groove 6px grey;
+}
+.cars ul
+{
+    list-style: none;
+    float: right;
+}
+.cars ul li {
+    display:inline-block;
+    margin: -3%;
+     padding: 107px;
+
+}
+.cars ul li a {
+text-decoration:none;
+border: transparent;
+padding: 21px;
+transition: 0.8s ease;
+color:black; 
+
+}
+.cars ul li :hover{
+    padding: 12px;
+    background-color:honeydew;
+    margin: 0%;
+}
+video{
+    position: relative;
+    right: -20%;
+    width: 55%;
+background-blend-mode: lighten;
+}
+.idname h1{
+    color: blanchedalmond;
+    font-size: 59px;
+    font-variant: small-caps;
+
+}
+.new  h1{
+    color: #fff;
+    font size: 23px;
+}
+.new section img {
+    border: 1em solid #fff;
+    border-bottom: 4em solid #fff;
+    border-radius: .25em;
+    margin: 2em auto;
+    transform: rotateZ(-0deg);
+    max-width: 600px;
+    width: 90%;
+  }
+  .new  b{
+ color: #fff;
+ font-family:cursive ;
+  }
+  .new h3{
+    color: #fff;
+    border: groove 6px grey;
+    background-size: cover;
+    position: absolute;
+    right:4%;
+    top: 320%; 
+    padding: 4%;
+    border: 1em solid #fff;
+    border-bottom: 4em solid #fff;
+    border-radius: .25em;
+    margin: 2em auto;
+    transform: rotateZ(-0deg);
+    max-width: 600px;
+    width: 90%;
+  }
+
+ marquee{
+     color:blanchedalmond ;
+     font-size: 35px;
+     font-family: fantasy;
+ }
